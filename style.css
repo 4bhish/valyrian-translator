@@ -1,0 +1,34 @@
+*{
+
+}
+
+.container
+{
+    margin: 3rem auto 6rem;
+    display: flex;
+    flex-direction: column;
+    width: 50vvw;
+    text-align: center;
+    align-items: center
+}
+
+#output-text
+{
+    display: block;
+    border: 1px solid black;
+    height: 5vh;
+    width: 40%;
+    padding: 1rem;
+    margin: 1 rem;
+}
+textarea
+{
+    display: block;
+    border: 1px solid black;
+    height: 5vh;
+    width: 40%;
+    padding: 1rem;
+    margin: 1 rem;
+    
+
+}
