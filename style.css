@@ -1,34 +1,48 @@
 *{
 
 }
+:root
+{
+    --color-primary:#1b1b32;
+    --color-secondary:#0a0a23;
+}
+header
+{
+    width: 60%;
+    max-width: 500px;
+    min-width: 300px;
+    margin:1rem auto;
+    padding: 1rem auto;
+    text-align: center;
+}
+
+.talk-Valyrian, .description
+{
+    padding: 1em auto;
+    
+}
 
 .container
 {
-    margin: 3rem auto 6rem;
-    display: flex;
-    flex-direction: column;
-    width: 50vvw;
-    text-align: center;
-    align-items: center
+    width: 60%;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 1rem auto;
+    padding: 1rem auto;
+
 }
 
-#output-text
+.fieldset-one
 {
-    display: block;
-    border: 1px solid black;
-    height: 5vh;
-    width: 40%;
-    padding: 1rem;
-    margin: 1 rem;
+    padding:1rem;
+    border-bottom: 2px solid burlywood;
 }
-textarea
+.fieldset
 {
-    display: block;
-    border: 1px solid black;
-    height: 5vh;
-    width: 40%;
     padding: 1rem;
-    margin: 1 rem;
-    
-
+}
+#translate
+{
+display: block;
+width: 60%;
 }
