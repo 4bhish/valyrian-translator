@@ -1,11 +1,11 @@
-# valyrian-translator
-A web app where user can translate to game of thrones valyrian lagnuage.
+# Meme Generator
+A interactive web app where user can generate thier own memes .
 ## How to use:
-- Enter your text you want to translate.
-- You will get know valyrian translation.
+- Enter your text of genric memes using top and bottom text inouts.
+- click on get me to get meme template.
+- you will have your meme now 
 ### Tech Used:
-- vanillaJS
-- Funtranslation API
-- html5
+- imgFlip  API
+- ReactJs
 - CSS5
 Don't forget to leave a ⭐ if you found this useful
