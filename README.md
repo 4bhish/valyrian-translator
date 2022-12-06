@@ -9,3 +9,5 @@ A interactive web app where user can translate to game of thrones valyrian langu
 - HTML5
 - CSS3
 Don't forget to leave a ⭐ if you found this useful
+
+![Screenshot (9)](https://user-images.githubusercontent.com/108976136/205936081-26a45964-a896-4b8c-ac03-5f57606eabce.png)
