@@ -11,7 +11,10 @@ function constructUrl(text)
     return url + "?" + "text=" + inputTxt.value;
 }
 
-
+function handleError(error) {
+    console.log("an error occured", error);
+    alert("Servers are busy at the moment please try after some time.")
+}
 
 btnTranslate.addEventListener("click", function clickHandler()
 {
@@ -23,6 +26,6 @@ btnTranslate.addEventListener("click", function clickHandler()
         var translatedTxt = json.contents.translated
         outputTxt.innerText = translatedTxt}
         )
-    
+     .catch(handleError)
     
 })
