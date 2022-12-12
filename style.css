@@ -36,6 +36,7 @@ textarea
     padding: 0.5rem;
     color: white;
     font-size: larger;
+    object-fit: contain;
 }
 button
 {
@@ -59,4 +60,5 @@ button
     padding: 0.5rem;
     color: white;
     font-size: larger;
+    object-fit: contain;
 }
